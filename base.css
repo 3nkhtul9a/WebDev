@@ -1,0 +1,179 @@
+html {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    background-image: url(head-bg.jpg);
+    background-attachment: fixed;
+}
+
+#mainmenu {
+    background-color: rgb(22, 20, 20); 
+    color: #fff; 
+    padding: 10px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+  }
+  
+  #mainmenu b {
+    font-size: 18px; 
+    margin-right: 20px; 
+  }
+  
+  #mainmenu a {
+    text-decoration: none;
+    color: #ffcc00; 
+    font-weight: bold;
+    margin-left: 20px; 
+    transition: color 0.3s ease; 
+  }
+  
+  #mainmenu a:hover {
+    color: #fff;
+  }
+
+
+fieldset {
+    background-color: rgb(22, 20, 20);
+}
+
+.lightsaber {
+    background-image: url(star-wars-bg.jpg);
+    background-size: 250%;
+    background-repeat: no-repeat;
+    background-position: -1500px;
+    border-radius: 10px;
+}
+
+.lightsaber_2 {
+    background-color: rgb(22, 20, 20);
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+.doom {
+    background-image: url(doom-bg.webp);
+    border-radius: 10px;
+    background-position: 400px;
+}
+
+.doom_2 {
+    background-color: rgb(22, 20, 20);
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+video {
+    border-radius: 10px;
+}
+
+.Psycho-Pass {
+    background-image: url(psycho-pass-bg.jpg);
+    background-size: contain;
+    border-radius: 10px;
+    background-position: -200px;
+}
+
+.Psycho-Pass_2 {
+    background-color: rgb(22, 20, 20);
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+.ac {
+    background-image: url(ac-bg.webp);
+    background-position: 100px;
+    border-radius: 10px;
+    background-position: 350px;
+}
+
+.ac_2 {
+    background-color: rgb(22, 20, 20);
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 20px;
+    opacity: 80%;
+}
+
+p, b, h2, figcaption, tr, h3, label{
+    color: azure;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    color: azure;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+li {
+    color: #ffcc00;
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .image-wrapper {
+      display: flex;
+      flex-direction: column;
+  }
+
+  img {
+      max-width: 100%;
+      margin-right: 200px;
+      padding: 5px;
+      border-radius: 20px;
+  }
+
+  .profile {
+    max-width: 150px;
+    max-height: auto;
+    border-radius: 40%;
+    margin-right: 10px;
+  }
+
+  .about {
+    background-color: rgb(22, 20, 20);
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 20px;
+    display: flex;
+  }
+
+  .content-container {
+    flex: 1;
+  }
+
+.videos-container {
+    background-color: rgb(22, 20, 20);
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+.videos-container video {
+    max-width: 700px;
+}
+
+video, img, table{
+    flex: 0 0 auto;
+    width: 100% !important;
+}
